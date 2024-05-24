@@ -6,7 +6,7 @@
   "scripts": {
     "build:css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
     "predeploy": "cross-env NODE_ENV=production npm run build:css",
-    "deploy": "gh-pages -d src"
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
